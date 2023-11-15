@@ -14,11 +14,11 @@ You are given bhp.csv which contains property prices in the city of banglore, In
 
     (ii) Using IQR, detect height outliers and print them
 
-# AIM:
+## AIM:
 
 TO detect and remove the outliers in the given data set and save the final data.
 
-# Algorithm:
+## Algorithm:
 
 ## Step 1
 
@@ -121,24 +121,24 @@ df5.shape
 sns.boxplot(x="height",data=df5)
 ```
 
-# OUTPUT:
+## OUTPUT:
 
 # DATASET FOR bhp.csv
 ![Screenshot 2023-05-29 214554](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/6eea1256-e6af-4ffb-be16-1b51cae6a1dd)
 
 
 
-# bhp Boxplot
+## bhp Boxplot
 ![Screenshot 2023-05-29 214603](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/a83d892a-9438-4b77-ae6e-ec218496f63a)
 
 
 
-# DATASET BOXPLOT WITH OUTLIERS(BHP)
+## DATASET BOXPLOT WITH OUTLIERS(BHP)
 
 ![Screenshot 2023-05-29 214610](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/8ebca5fb-5531-48f5-a8ae-12be0f03c072)
 
 
-# DATASET WITHOUT OUTLIERS(BHP)
+## DATASET WITHOUT OUTLIERS(BHP)
 
 ![Screenshot 2023-05-29 214622](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/6b98d503-ded1-4b08-b06a-733ea005b388)
 
@@ -146,40 +146,40 @@ sns.boxplot(x="height",data=df5)
 
 
 
-# DATASET BOXPLOT WITHOUT OUTLIERS(BHP)
+## DATASET BOXPLOT WITHOUT OUTLIERS(BHP)
 ![Screenshot 2023-05-29 214729](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/759267fb-366d-468c-b7d8-148283105dc4)
 
 
-# Shape
+## Shape
 ![Screenshot 2023-05-29 214733](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/7ed07457-0b92-4488-b7c5-be2267ab6f9d)
 
 
 
-# DATASET AFTER REMOVAL OF OUTLIERS USING Z-SCORE(BHP)
+## DATASET AFTER REMOVAL OF OUTLIERS USING Z-SCORE(BHP)
 
 ![Screenshot 2023-05-29 214740](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/cc461934-88b4-43db-9545-4b68ba147f4c)
 
 
-# Shape
+## Shape
 ![Screenshot 2023-05-29 214746](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/71c1a6fd-7b35-4ad3-bb9b-8973cbc9eaf9)
 
 
 
-# DATASET BOXPLOT AFTER REMOVAL OF OUTLIERS USING Z-SCORE(BHP)
+## DATASET BOXPLOT AFTER REMOVAL OF OUTLIERS USING Z-SCORE(BHP)
 
 ![Screenshot 2023-05-29 214751](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/49f13f9b-7f03-4c4e-aadc-013f40d681be)
 
-# DATASET FOR WEIGHT_HEIGHT_CSV
+## DATASET FOR WEIGHT_HEIGHT_CSV
 
 ![Screenshot 2023-05-29 214759](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/81f84442-a80f-4c98-abda-bdf15d9da0de)
 
 
-# DATASET BOXPLOT WITH OUTLIERS(WEIGHT_HEIGHT)
+## DATASET BOXPLOT WITH OUTLIERS(WEIGHT_HEIGHT)
 ![Screenshot 2023-05-29 214804](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/68cfe534-71e8-4c26-b53f-0f12f5bbd627)
 
 
 
-# DATASET AFTER REMOVING OUTLIERS USING IQR METHOD(WEIGHT_HEIGHT)
+## DATASET AFTER REMOVING OUTLIERS USING IQR METHOD(WEIGHT_HEIGHT)
 
 ![Screenshot 2023-05-29 214808](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/dda54a89-a337-47d1-bb74-0922f47ba1b4)
 
@@ -187,16 +187,16 @@ sns.boxplot(x="height",data=df5)
 
 
 
-# SHAPE
+## SHAPE
 
 ![Screenshot 2023-05-29 214820](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/89dff744-2352-41b7-9ef2-f827217bc69e)
 
 
-# DATASET BOXPLOT AFTER REMOVING OUTLIERS USING IQR METHOD(WEIGHT_HEIGHT)
+## DATASET BOXPLOT AFTER REMOVING OUTLIERS USING IQR METHOD(WEIGHT_HEIGHT)
 
 ![Screenshot 2023-05-29 214827](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/097b521f-1988-489b-b4e5-6a04cceace68)
 
-# FOR HEIGHT COLUMN WITH OUTLIERS
+## FOR HEIGHT COLUMN WITH OUTLIERS
 
 ![Screenshot 2023-05-29 214832](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/073565bc-a62f-415d-81bd-cf9f8acd006b)
 ![Screenshot 2023-05-29 214841](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/6d766ad8-b70a-432d-85f4-2cc062c0b458)
@@ -207,15 +207,15 @@ sns.boxplot(x="height",data=df5)
 
 
 
-# Shape
+## Shape
 ![Screenshot 2023-05-29 214854](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/79da551e-14bf-4458-88c1-b05181be103c)
 
 
-# AFTER REMOVING OUTLIERS BOXPLOT FOR HEIGHT
+## AFTER REMOVING OUTLIERS BOXPLOT FOR HEIGHT
 ![Screenshot 2023-05-29 214859](https://github.com/Nagul71/Ex02-Outlier/assets/118661118/3e67923e-b6ae-4cf5-a103-ab5088b95185)
 
 
 
-# Result:
+## Result:
 
 Thus the outliers are detected and removed in the given file and the final data set is saved into the file.
